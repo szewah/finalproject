@@ -1,0 +1,21 @@
+
+h1 {
+	color: #84FFE2;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+p {
+	color: #FFCC79;
+	background: #6E6CE8;
+	font-weight: normal;
+	font-family: helvetica;	
+}
+
+ul {
+	font-family: helvetica;
+}
+
+a {
+	color: red;
+}
