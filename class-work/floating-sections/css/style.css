@@ -1,5 +1,5 @@
 .container {
-  width: 1000px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -14,14 +14,16 @@ header {
 
 main {
   background: yellow;
-  // float: ;
-  // width: ;
+  float: left;
+  height: 150px;
+  width: 70%;
 }
 
 aside {
   background: green;
-  // float: ;
-  // width: ;
+  float: right;
+  height: 150px;
+  width: 30%;
 }
 
 footer {
@@ -29,7 +31,7 @@ footer {
 }
 
 .clear {
-  // clear: ;
+  clear: both;
 }
 
 
