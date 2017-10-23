@@ -130,3 +130,7 @@ nav a,a,article a,#headerh1 {
 h2,#headerh1,#headerh3,.date {
 	font-weight: lighter;
 }
+
+.no-border{
+	border: none;
+}
