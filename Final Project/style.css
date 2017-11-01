@@ -1,0 +1,111 @@
+body {
+    margin: 0 auto;
+    background: white;
+    font-family: helvetica;
+}
+
+.site-header {
+    padding: 20px 0 0 10px;
+}
+
+
+button{
+    color: #FF4500;
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+
+.tier_one_menu h1 {
+    color: #5a5353;
+    float: left;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.tier_one_menu h2  {
+    color: #5a5353;
+    float: left;
+    padding-left: 10px;
+    padding-top: 13px;
+    margin: 0;
+}
+
+.main_content {
+    background: url("Images/asian couple.jpg");
+    width: 100%;
+    height: 600px;
+    border-top: 2px solid #FF4500;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.text {
+    display: inline-block;
+    margin-left: 400px;
+    width: 100%;
+    margin-top: 400px;
+/*    overflow: auto;*/
+}
+
+.hero_header {
+    width: 500px;
+    padding: 10px;
+    background: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.excerpt {
+    width: 500px;
+    padding: 10px;
+    margin-top: 0; 
+    background: white;
+    text-align: center;
+    height: 200px;
+}
+
+
+.divider {
+    display: block;
+    margin-top: 7.0em;
+    margin-bottom: 5.0em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-top: 2px solid #FF4500;
+}
+
+.twoposts {
+    width: 820px;
+    padding-left: 50px;
+}
+
+.thumbnail {
+    width: 400px;
+}
+
+.left {
+    width: 400px;
+}
+
+.right {
+    width: 400px;
+}
+
+
+.post-listings3 {
+    padding-left: 50px;
+}
+.post-listings3 img{
+    width: 300px;
+}
+
+.footernav {
+    clear: both;
+}
+
