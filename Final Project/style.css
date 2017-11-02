@@ -46,7 +46,7 @@ button{
 
 .text {
     display: inline-block;
-    margin-left: 400px;
+    margin:: 0 auto;
     width: 100%;
     margin-top: 400px;
 /*    overflow: auto;*/
@@ -58,6 +58,7 @@ button{
     background: white;
     text-align: center;
     border-bottom: 1px solid white;
+    margin: 0 auto;
 }
 
 .excerpt {
@@ -67,6 +68,7 @@ button{
     background: white;
     text-align: center;
     height: 200px;
+    margin: 0 auto;
 }
 
 
@@ -80,13 +82,17 @@ button{
     border-top: 2px solid #FF4500;
 }
 
-.twoposts {
+.wopostscontainer {
     width: 820px;
     padding-left: 50px;
+    margin: 0 auto;
 }
+
+
 
 .thumbnail {
     width: 400px;
+    margin: 0 auto;
 }
 
 .left {
