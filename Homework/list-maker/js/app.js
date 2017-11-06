@@ -32,11 +32,16 @@ function handleClick() {
 	$('#item').val('');
 }
 
-
 function appendItem(text){
-	// $('#list').html(text);
 	$('#list').append('<li>' + text + '</li>');
+	$('li').click(function() {
+    	$(this).remove();
+    });
 }
+
+
+    
+
 
 // function clearItem(clear) {
 // 	$('item').val()
