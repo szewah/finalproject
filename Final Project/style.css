@@ -5,59 +5,122 @@ body {
 }
 
 .site-header {
-    padding: 20px 0 0 10px;
+    padding: 20px 0 0 0;
 }
 
 
-button{
+.hamburger {
+    float: left;
+    font-size:1.5em;
+    background:none;
+    padding:10px 8px 0 15px;
+    color:#999;
+    border: none;
+    cursor:pointer;
+    overflow: auto;
     color: #FF4500;
-    float: left;
-    margin-right: 15px;
-    margin-top: 15px;
 }
 
 
-.tier_one_menu h1 {
-    color: #5a5353;
+.cross{
     float: left;
+    position: relative;
+    font-size:2.8em;
+    background:none;
+    padding:15px 8px 0px 18px;
+    color:#FF4500;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+
+.menu_list {
+    z-index:1;
+    width: 100%;
+    overflow: auto;
+}
+
+.site-header {
+    display: inline-block;
+}
+
+.site-header h1 {
+    color: #5a5353;
     margin: 0;
-    padding-top: 5px;
-    padding-bottom: 20px;
-}
-
-.tier_one_menu h2  {
-    color: #5a5353;
-    float: left;
     padding-left: 10px;
-    padding-top: 13px;
-    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    float: left;
+    cursor:pointer;
+    z-index: -1;
+
 }
+
+
+.site-header h2  {
+    color: #FF4500;
+    padding-left: 15px;
+    padding-top: 18px;
+    margin: 0;
+    float: left;
+    cursor:pointer;
+    z-index: -1;
+}
+
+.menu_list ul {
+    list-style-type: none;
+    background-color: #FF4500;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Raleway';
+    padding: 15px 0px 15px 55px;
+}
+
+.menu_list a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    padding: 0 20px 0 0;
+    display: inline-block;
+}
+
 
 .main_content {
-    background: url("Images/asian couple.jpg");
-    width: 100%;
-    height: 600px;
+/*    background: url("Images/asian couple.jpg");
+/*    width: 100%;
+    height: 100%;
     border-top: 2px solid #FF4500;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-top: 0;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
     clear: both;
 }
 
+
+.fullscreen-bg__video {
+    width: 100%;
+    clear: both;
+
+}
+
 .text {
+    border-top: 2px solid #FF4500;
     display: inline-block;
     margin:: 0 auto;
     width: 100%;
-    margin-top: 400px;
+    height: 100%;
+/*    margin-top: 400px;*/
 /*    overflow: auto;*/
 }
 
 .hero_header {
     width: 500px;
-    padding: 10px;
+    padding-top: 30px;
     background: white;
     text-align: center;
-    border-bottom: 1px solid white;
+/*    border-bottom: 1px solid white;*/
     margin: 0 auto;
 }
 
@@ -67,14 +130,14 @@ button{
     margin-top: 0; 
     background: white;
     text-align: center;
-    height: 200px;
+/*    height: 200px;*/
     margin: 0 auto;
 }
 
 
 .divider {
     display: block;
-    margin-top: 7.0em;
+    margin-top: 1.0em;
     margin-bottom: 5.0em;
     margin-left: 0 auto;
     margin-right: 0 auto;
@@ -84,7 +147,7 @@ button{
 
 
 .twopostscontainer {
-    width: 820px;
+    width: 800px;
     padding-bottom: 90px;
     margin: 0 auto;
 /*    overflow: visible;*/
@@ -92,21 +155,23 @@ button{
 
 
 .thumbnail {
-    width: 400px;
+    width: 350px;
 
 }
 
 .left {
-    width: 400px;
+    width: 350px;
     display: inline-block;
+    padding-right: 20px;
 }
 
 .right {
-    width: 400px;
+    width: 350px;
     display: inline-block;
+    padding-left: 10px;
 }
 
-.threepostscontainer {
+/*.threepostscontainer {
     width: 820px;
     margin: 0 auto;
 }
@@ -120,7 +185,7 @@ button{
 
 .post-listings3 img{
     width: 200px;
-}
+}*/
 
 .footernav {
     width: 100%;
