@@ -176,6 +176,8 @@ footer {
 		padding: 5px;
 		margin-top: 20px;
 	}
+}
+
 
 #mobile-nav {
 		position: absolute;
@@ -197,7 +199,6 @@ footer {
 		text-transform: uppercase;
 	}
 
-}
 
 
 @media screen and (max-width: 778px) {
