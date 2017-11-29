@@ -11,3 +11,16 @@ $('#toggle').click(function(){
 	$('.menu_list').toggle(250);
 
 });
+
+$(document).ready(function() {
+	$('.thumbnail').hover(function() {
+		$(this).addClass('transition');
+	}, function() {
+		$(this).removeClass('transition');
+	});
+});
+
+$('.helpparagraph').click(slideRow)
+function slideRow() {
+	$(this).find('.article').slideToggle() 
+}
