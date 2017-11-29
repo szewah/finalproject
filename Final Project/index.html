@@ -3,77 +3,63 @@
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<title>Gingertonic Blog</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
  	<header class="site-header">
  		<!-- desktop menu button -->
-			<button class="hamburger">&#9776;</button>
-  			<button class="cross">&#735;</button>
-
-			<h1 class="logo_header_container">Gingertonic</h1>
-			<h2>BLOG</h2>	
+  		<div id="toggle">
+  			<span></span>
+  			<span></span>
+  			<span></span>
+		</div>
+		<a href="index.html"><h1 class="logo_header_container">Gingertonic</h1></a>
  	</header>
 
  	<div class="menu_list">
   				<ul>
-    				<a href="#"><li>About</li></a>
-    				<a href="#"><li>Blog</li></a>
-    				<a href="#"><li>News That Helps</li></a>
+    				<a href="about.html"><li>About</li></a>
+    				<a href="Blog.html#"><li>Blog</li></a>
+    				<a href="News that helps.html#"><li>News That Helps</li></a>
   				</ul>
 			</div> 
 
  	<main class="main_content">
- 		<div class="text">
+ 		<div class="wrapper">
  			<div class="fullscreen-bg">
     			<video loop muted autoplay poster="Video/elderlyfarmer_grandson.jpg" class="fullscreen-bg__video">
         		<source src="Video/elderlyfarmer_grandson.mp4" type="video/mp4">	
 			</div>
 
  			<div class="hero_header">
-				<h2>Getting to Know Your Older Loved One</h2>
-			</div>
-			<div class="excerpt">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>			
-			</div>			
+				<h3>Getting to Know Your Older Loved One</h3>
+<!-- 			</div> -->
+				<div class="excerpt">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>			
+				</div>	
+			</div>					
 		</div>
  	</main>
 
- 	<hr class="divider">
+ 	<!-- <hr class="divider"> -->
 
  	<section class="twopostscontainer">
- 			<div class="left">
- 		 		<img class="thumbnail" src="https://static1.squarespace.com/static/5330a423e4b07cae635bb95e/53331a82e4b0528862e35ca9/59c00e4a18b27d66257c1615/1505932535861/lyft-bud.jpeg?format=500w">
- 				<p>Have a great idea for a product, but need help making it a reality? We're here to help.</p>
- 			</div>
- 				<div class="right">
- 				<img class="thumbnail" src="https://static1.squarespace.com/static/5330a423e4b07cae635bb95e/53331a82e4b0528862e35ca9/59c00e4a18b27d66257c1615/1505932535861/lyft-bud.jpeg?format=500w">
- 				<p>Have a great idea for a product, but need help making it a reality? We're here to help.</p>
- 			</div>
+ 		<div class="container">
+  			<div class="row">
+  				<div id="rowone" class='col-md-6'><img class="thumbnail" src="Images/Dementia2.png"><h4>Alzheimer's is emerging from the shadows</h4>The Financial Times outline what is known so far about the set of symptons that were first diagnosed in the early 20th century.
+  				</div>
+  				<div id="rowtwo" class='col-md-6'><img class="thumbnail" src="Images/Sonmum.png"><h4>Older adults are people first, not a puzzle to be solved</h4>Understanding the new motivations in old age and the need to have technologists work with artists to create style in products for the aging.</div>
+ 
+			</div>
+		</div>
  	</section>
 
-<!--  	<section class="threepostscontainer">
- 		<div class="post-listings3">
-			<img src="Images/thumbnail1.png">
- 			<h2>Some news</h2>	
- 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
- 		</div>
- 		<div class="post-listings3">
- 			<img src="Images/thumbnail2.png">	
- 			<h2>Some news</h2>	
- 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
- 		</div>
- 		<div class="post-listings3">
- 			<img src="Images/thumbnail3.png">
- 			<h2>Some news</h2>	
- 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
- 		</div>
-  	</section> -->
 
  	<footer class="footernav">
  		<nav>
- 			<a href="">About</a>
+ 			<a href="about.html">About</a>
  			<a href="">Terms of Use</a>
  			<a href="">Privacy</a>
  		</nav>
