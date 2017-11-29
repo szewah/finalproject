@@ -189,18 +189,16 @@ a .logo_header_container {
 
 }
 
-.thumbnail {
-    border: 0;
-    cursor: pointer;
-    margin: 0;
+
+#rowone img, #rowtwo img {
+    padding: 0;
 }
 
-img {
-    border: none;
-}
 
 img.thumbnail {
     width: 100%;
+    border: 0; 
+    margin: 0; 
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
